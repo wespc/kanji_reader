@@ -84,7 +84,7 @@ async function getReading(text) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        app_id: '',  // 替换为你自己的 API 密钥
+        app_id: 'your_api_key',  // 替换为你自己的 API 密钥
         sentence: text,
         output_type: 'hiragana',  // 请求返回假名
       }),
