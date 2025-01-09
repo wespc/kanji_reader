@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Kanji Reading Helper",
+  "version": "1.0",
+  "description": "Shows reading for selected Japanese kanji",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://labs.goo.ne.jp/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
