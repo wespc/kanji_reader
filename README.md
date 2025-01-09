@@ -33,6 +33,53 @@
 
 ---
 
+## Contributing
+
+We welcome contributions to improve Kanji Reading Helper! To maintain a clean and stable workflow, all development should be done on the `dev` branch. Here’s the step-by-step process:
+
+1. **Fork and Clone the Repository**
+   - Fork this repository to your GitHub account.
+   - Clone the forked repository locally:
+     ```bash
+     git clone https://github.com/wespc/kanji_reader.git
+     cd kanji_reader
+     ```
+
+2. **Switch to the `dev` Branch**
+   - Make sure you are working on the `dev` branch:
+     ```bash
+     git checkout dev
+     ```
+
+3. **Create a New Branch for Your Work**
+   - Create a new branch for your feature or bug fix based on `dev`. Use a meaningful name for your branch:
+     ```bash
+     git checkout -b feature/your-feature-name
+     ```
+
+4. **Make Changes**
+   - Implement your feature or fix the bug.
+   - Test your changes thoroughly to ensure they work as expected.
+
+5. **Commit Your Changes**
+   - Write clear and descriptive commit messages:
+     ```bash
+     git add .
+     git commit -m "Add a clear description of your changes"
+     ```
+
+6. **Push Your Branch**
+   - Push your branch to your forked repository:
+     ```bash
+     git push origin feature/your-feature-name
+     ```
+
+7. **Submit a Pull Request**
+   - Open a pull request targeting the `dev` branch of the main repository.
+   - Provide a clear description of your changes in the pull request.
+
+---
+
 ## Usage
 
 1. After loading the extension, it will automatically run on all webpages.
