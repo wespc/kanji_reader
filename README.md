@@ -18,7 +18,7 @@
 1. **Clone or Download the Repository**
    - Clone the repository using Git:
      ```bash
-     git clone https://github.com/your-repo/kanji-reading-helper.git
+     git clone https://github.com/wespc/kanji-reading-helper.git
      ```
    - Or download the repository as a ZIP file and extract it.
 
